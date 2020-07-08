@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { CurriculoComponent } from './curriculo/curriculo.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from './ownpage-routing.module';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CurriculoComponent,
     SobreComponent,
-    HomeComponent
+    HomeComponent,
+    PagenotfoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

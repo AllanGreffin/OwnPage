@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="#"> Fotoaqui </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,19 +5,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#">Currículo</a>
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" routerLink="/curriculo" routerLinkActive="active">Currículo</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sobre" routerLinkActive="active">Sobre</a>
+        </li>
+
       </ul>
     </div>
 </nav>
 
 <div class="container">
-    <p> div container aqui ! </p>
+    <router-outlet></router-outlet>
 </div>
+
