@@ -5,7 +5,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { CurriculoComponent } from './curriculo/curriculo.component';
 
 const routes: Routes = [
-    { path: 'home', component: HomeComponent },
+    { path: '', component: HomeComponent },
     { path: 'sobre', component: SobreComponent },
     { path: 'curriculo', component: CurriculoComponent }
 ]; // sets up routes constant where you define your routes
