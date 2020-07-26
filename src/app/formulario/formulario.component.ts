@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Usuario } from '../models/usuario';
 
 @Component({
   selector: 'app-formulario',
@@ -7,14 +8,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormularioComponent implements OnInit {
 
-  constructor() { }
+  FirstName: string = "";
+  LastName: string= "";
+  Email: string = "";
+  ConfirmEmail: string = "";
+  Senha: string = "";
+  ConfirmaSenha: string ="";
+  Cep: string = "";
+  usuario: Usuario;
+
+  constructor() {
+
+   }
 
   ngOnInit(): void {
   }
 
   EnviarForm(){
 
-    console.log("Texto do EnviarForm");
+    this.usuario = new Usuario(
+      this.FirstName,
+      this.LastName,
+      this.Email,
+      this.Senha
+    );
     
+    console.log(this.usuario);
   }
 }

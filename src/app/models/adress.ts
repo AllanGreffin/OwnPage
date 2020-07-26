@@ -6,6 +6,7 @@ export class Adress {
         public Cidade: string,
         public Rua: string,
         public numero: string,
-        public complemento: string
+        public complemento: string,
+        public referencia: string
     ){}
 }
