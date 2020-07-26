@@ -12,4 +12,9 @@ export class FormularioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  EnviarForm(){
+
+    console.log("Texto do EnviarForm");
+    
+  }
 }
