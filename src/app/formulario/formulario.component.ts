@@ -8,15 +8,6 @@ import { Usuario } from '../models/usuario';
 })
 export class FormularioComponent implements OnInit {
 
-  FirstName: string = "";
-  LastName: string= "";
-  Email: string = "";
-  ConfirmEmail: string = "";
-  Senha: string = "";
-  ConfirmaSenha: string ="";
-  Cep: string = "";
-  usuario: Usuario;
-
   constructor() {
 
    }
@@ -24,15 +15,9 @@ export class FormularioComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  EnviarForm(){
+  EnviarForm(form){
 
-    this.usuario = new Usuario(
-      this.FirstName,
-      this.LastName,
-      this.Email,
-      this.Senha
-    );
-    
-    console.log(this.usuario);
+    console.log(form.value);
+
   }
 }
