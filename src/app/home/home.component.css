@@ -1,0 +1,23 @@
+.codeparallax{
+    background-image: url("src\assets\codepic.jpg");
+    
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beachparallax{
+    background-image: url("src\assets\beach.jpg");
+    
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
