@@ -1,0 +1,7 @@
+.navbar-nav li a.active{
+    border: 1px solid white;
+}
+
+nav.navbar{
+    background-color: darkblue;
+}
