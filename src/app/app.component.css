@@ -1,0 +1,10 @@
+.navbar-nav li a.active{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+nav.navbar{
+    background-color: darkblue;
+    padding-bottom: 2px;
+    padding-top: 3px;
+}

@@ -1,0 +1,92 @@
+<form #f="ngForm" (ngSubmit)="EnviarForm(f)">
+
+  <div class="row">
+    <div class="form-group col-6">
+      <label for="FirstName">First Name</label>
+      <input type="text" class="form-control" id="FirstName" placeholder="Enter First Name" name="primeironome" ngModel>
+    </div>
+    
+    <div class="form-group col-6">
+      <label for="LastName">Last Name</label>
+      <input type="text" class="form-control" id="LasttName" placeholder="Enter Last Name" name="sobrenome" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-6">
+      <label for="Email">Email</label>
+      <input type="email" class="form-control" id="Email" placeholder="email@email.com" name="email" ngModel>
+      <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    
+    <div class="form-group col-6">
+      <label for="ConfirmEmail">confirmar Email</label>
+      <input type="email" class="form-control" id="ConfirmEmail" placeholder="email@email.com" name="confirmaemail" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-5">
+      <label for="Password">Senha</label>
+      <input type="password" class="form-control" id="Password" placeholder="Password" name="senha" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-5">
+      <label for="ConfirmPassword">Confirmar Senha</label>
+      <input type="password" class="form-control" id="ConfirmPassword" placeholder="confirm Password" name="confirmasenha" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-4">
+      <label for="Cep">Cep</label>
+      <input type="text" class="form-control" id="Cep" name="cep" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-5">
+      <label for="Estado">Estado</label>
+      <input type="text" class="form-control" id="Estado" name="estado" ngModel>
+    </div>
+  
+    <div class="form-group col-5">
+      <label for="Cidade">Cidade</label>
+      <input type="text" class="form-control" id="Cidade" name="cidade" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-4">
+      <label for="Bairro">Bairro</label>
+      <input type="text" class="form-control" id="Bairro" name="bairro" ngModel>
+    </div>
+  
+    <div class="form-group col-6">
+      <label for="Rua">Rua</label>
+      <input type="text" class="form-control" id="Rua" name="rua" ngModel>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-2">
+      <label for="Numero">Número</label>
+      <input type="text" class="form-control" id="Numero" name="numero" ngModel>
+    </div>
+  
+    <div class="form-group col-3">
+      <label for="Complemento">Complemento</label>
+      <input type="text" class="form-control" id="Complemento" name="complemento" ngModel>
+    </div>
+  
+    <div class="form-group">
+      <label for="Referencia">Referência</label>
+      <input type="text" class="form-control" id="Referencia" name="referencia" ngModel>
+    </div>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+</form>

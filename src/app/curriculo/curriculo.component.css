@@ -1,0 +1,14 @@
+ul.dados li{
+    list-style-type: none;
+}
+.bairro, .estadocivil{
+    margin-left: 25px;
+}
+
+h5 {
+    margin-top: 30px;
+}
+
+span.empresa{
+    font-weight: bold;
+}
