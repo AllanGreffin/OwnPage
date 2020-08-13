@@ -30,5 +30,6 @@
     .parallax {
       background-attachment: scroll;
       background-size: 300px;
+      background-position: top;
     }
   }
