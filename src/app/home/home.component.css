@@ -1,9 +1,15 @@
+.conteudo{
+    background-color: floralwhite;
+}
+
+.showparallax{
+    height: 40vh;
+}
+
 .codeparallax{
     background-image: url("src\assets\codepic.jpg");
-    
-    height: 300px;
+    height: max-content;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,10 +18,8 @@
 
 .beachparallax{
     background-image: url("src\assets\beach.jpg");
-    
-    height: 300px;
+    height: max-content;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
